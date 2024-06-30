@@ -1,0 +1,215 @@
+/*--------------------------------------------------------------
+# Main Stylesheet
+--------------------------------------------------------------*/
+
+/* General
+--------------------------------------------------------------*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFE81F;
+}
+
+/* Sections
+--------------------------------------------------------------*/
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFE81F;
+    position: relative;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #FFE81F;
+    margin-bottom: 0;
+}
+
+/* Header
+--------------------------------------------------------------*/
+#header {
+    background: #000000;
+    color: #ffffff;
+    padding: 15px 0;
+    border-bottom: 1px solid #FFE81F;
+}
+
+#header .navbar-brand {
+    color: #FFE81F;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#header .navbar-nav > li > a {
+    color: #FFE81F;
+}
+
+#header .navbar-nav > li > a:hover,
+#header .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+
+/* About Section
+--------------------------------------------------------------*/
+#about {
+    background: #000000;
+    color: #ffffff;
+}
+
+#about .welcome-block {
+    margin-top: 30px;
+}
+
+#about .welcome-block h3 {
+    color: #FFE81F;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#about .welcome-block p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Service Section
+--------------------------------------------------------------*/
+#service {
+    background: #000000;
+    color: #ffffff;
+}
+
+#service .service-item {
+    margin-bottom: 30px;
+}
+
+#service .service-item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFE81F;
+}
+
+#service .service-item p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Portfolio Section
+--------------------------------------------------------------*/
+#portfolio {
+    background: #000000;
+    color: #ffffff;
+}
+
+#portfolio .portfolio-item {
+    margin-bottom: 30px;
+}
+
+#portfolio .portfolio-item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFE81F;
+}
+
+#portfolio .portfolio-item p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Testimonial Section
+--------------------------------------------------------------*/
+#testimonials {
+    background: #000000;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+#testimonials .testimonial-item {
+    margin-bottom: 30px;
+}
+
+#testimonials .testimonial-item p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Price Section
+--------------------------------------------------------------*/
+#price {
+    background: #000000;
+    color: #ffffff;
+}
+
+#price .price-table {
+    background: #1a1a1a;
+    border: 1px solid #FFE81F;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#price .price-table h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFE81F;
+}
+
+#price .price-table p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Contact Section
+--------------------------------------------------------------*/
+#contact {
+    background: #000000;
+    color: #ffffff;
+}
+
+#contact .contact-details {
+    margin-top: 30px;
+}
+
+#contact .contact-details p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#contact .contact-form .input-field {
+    margin-bottom: 20px;
+}
+
+#contact .contact-form .input-field input,
+#contact .contact-form .input-field textarea {
+    background: #1a1a1a;
+    border: 1px solid #FFE81F;
+    color: #ffffff;
+}
+
+/* Footer
+--------------------------------------------------------------*/
+#footer {
+    background: #000000;
+    color: #ffffff;
+    padding: 30px 0;
+    border-top: 1px solid #FFE81F;
+}
+
+#footer p {
+    font-size: 14px;
+    color: #ffffff;
+}
